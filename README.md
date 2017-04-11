@@ -2,6 +2,7 @@
 Connect to parse server Via curl commends using parse server restful  API 
 # Install Via composer 
   `composer require zteam-pro/parse-curl`
+  
   How to Use it 
   
   You must add the parse server config like 
