@@ -25,8 +25,7 @@ Connect to parse server Via curl commends using parse server restful  API
      3- Master_key=########################
      4- data={"score","30"}
 
-
-  ## Delete an object  from parse server
+    ## Delete an object from parse server
      1- app_id=####
      2- server_url=https://#########/classes/ClassName/objectId
      3- Master_key=########################
