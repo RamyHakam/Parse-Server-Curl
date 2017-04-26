@@ -12,7 +12,30 @@ Connect to parse server Via curl commends using parse server restful  API
       3- Master key 
       4- The query or data  paramters to make a query to the parse server   
    Then you will call any of ParseCurl obejct function to perform the CURL commend and get response back 
-   # Example for Query
-      Query=Where:{"objectId","########"}
-      
+   # perform a Query on parse server
+     1- app_id=####
+     2- server_url=https://#########/classes/ClassName
+     3- Master_key=########################
+     4- Query=Where:{"objectId","########"}
+
+    # Create object on parse server
+     1- app_id=####
+     2- server_url=https://#########/classes/ClassName
+     3- Master_key=########################
+     4- data={"name","########","score"="20"}   
    
+     # Update an object  on  parse server
+     1- app_id=####
+     2- server_url=https://#########/classes/ClassName/objectId
+     3- Master_key=########################
+     4- data={"score","30"}
+
+  # Delete an object  from parse server
+     1- app_id=####
+     2- server_url=https://#########/classes/ClassName/objectId
+     3- Master_key=########################
+     4- data= #Not Required
+
+
+
+     
